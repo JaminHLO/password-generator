@@ -39,7 +39,7 @@ function collectPasswordSpecs (){
   return(true);
 }
 
-
+// function to generate password using user parameters
 function generatePassword(){
   console.log(passwordInfo);
   var pwCharList = '';
@@ -60,7 +60,7 @@ function generatePassword(){
     pwCharList = pwCharList.concat('!#$%&*+-<=>?@^~');
     //  console.log(pwCharList);
   }
-  console.log("Chars:", pwCharList, "\nLength of Possibles:", pwCharList.length);
+  // console.log("Chars:", pwCharList, "\nLength of Possibles:", pwCharList.length);
   
   //generate random number with user defined length
   for (i=0; i<passwordInfo.pwLength; i++) {
@@ -70,7 +70,7 @@ function generatePassword(){
     passwordFinished = passwordFinished.concat(pwCharList[index]);
   }
   //return our finished password string
-  console.log(passwordFinished);
+  // console.log(passwordFinished);
   return (passwordFinished);
 }
 

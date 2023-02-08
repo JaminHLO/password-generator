@@ -134,4 +134,7 @@ button[disabled] {
   .btn {
     font-size: 0.8rem;
   }
+  .card {
+    font-size: 14px;
+  }
 }
