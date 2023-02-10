@@ -2,11 +2,11 @@
 
 ## Description
 
-This website is Password Generator. My aim is to demonstrate simple javascript logic to randomly generate a password based on a user's specifications. This site is intended to solve the user's need to have a randomly generated password that meets certain requirements including total length and whether it may contain numbers, lowercase letters, uppercase letters and/or special characters. During this process I learned about javascript and how to connect it to my html file and how a user clicking a button may trigger a function. 
+This website is my Password Generator. My aim is to demonstrate simple javascript logic to randomly generate a password based on user specifications. This site is intended to solve the user's need to have a randomly generated password that meets certain requirements including total length and whether it may contain numbers, lowercase letters, uppercase letters and/or special characters. During this process I learned about javascript the confirm, prompt, and alert dialogs and how a user click may trigger a function. 
 
 ## Usage
 
-This website has been tested to be functional on Chrome, MS Edge, Brave, Samsung Galaxy, and iPhone. 
+This website has been tested to be functional on Chrome, MS Edge, Brave, and iPhone. 
 
 After clicking the 'Generate Password' button a user will be presented with a prompt asking them to input a password length between 8 and 128 characters long. An entry outside of this range will alert with an error and end the process. The user will next be presented with a series of confirm boxes them whether they would like their new password to contain numbers, lowercase letters, uppercase letters and/or special characters. If at least one of these types is not selected then a valid password could not be generated so the program will alert the user with an error and end the program. 
 
@@ -27,7 +27,7 @@ Special shout out to Xandromus for the starter code:
 
 ## License
 
-I prefer not to have my work repackaged as a closed source version. Sharing is caring.
+I prefer not to have my work re-packaged as a closed source version. Sharing is caring.
 
 GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
